@@ -20,4 +20,4 @@ The architecture of DEF-PIPE consists of four components:
 
 - Public API enables external interaction, including integration with the DIS-PIPE, SIM-PIPE and ADA-PIPE tools. 
 
-![This is an image](https://github.com/DataCloud-project/DEF-PIPE/blob/main/GitPict1.png)
+![This is an image](https://github.com/DataCloud-project/DEF-PIPE/blob/main/docs/GitPict1.png)
