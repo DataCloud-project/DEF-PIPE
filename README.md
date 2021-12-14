@@ -1,2 +1,2 @@
 # DEF-PIPE
-ajskaljdalajdal
+DEF-PIPE provides a visual design for implementing Big Data pipelines based on a DSL, including storing and loading the pipeline definitions and displaying them in a user interface where domain experts declare the pipeline structure. Furthermore, it enables data scientists to define the content by configuring each step and injecting code or customising generic predefined step templates. 
