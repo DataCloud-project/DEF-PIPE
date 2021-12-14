@@ -19,3 +19,5 @@ The architecture of DEF-PIPE consists of four components:
 - Pipeline repository stores Big Data pipelines using their DSL representation. 
 
 - Public API enables external interaction, including integration with the DIS-PIPE, SIM-PIPE and ADA-PIPE tools. 
+
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
