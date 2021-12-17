@@ -8,16 +8,9 @@ DEF-PIPE provides the following functionality:
 
 - Predefined pipeline and step templates provide a library of existing implementations for injection and reuse into the current pipeline. 
 
-The architecture of DEF-PIPE consists of four components: 
-
-- Schema editor allows a graphical construction of the Big Data pipelines through drag-and-drop operations of the step descriptions stored in the template library. 
-
-- Templates editor is a graphical component for describing pipeline steps through their parameters and resource requirements. A templates library stores the steps’ textual descriptions for subsequent pipeline design purposes. 
-
-- DSL editor allows describing pipelines in a textual form. The templates library also stores the complete pipeline descriptions for further redesign and reuse. 
-
-- Pipeline repository stores Big Data pipelines using their DSL representation. 
-
-- Public API enables external interaction, including integration with the DIS-PIPE, SIM-PIPE and ADA-PIPE tools. 
-
-![This is an image](https://github.com/DataCloud-project/DEF-PIPE/blob/main/docs/GitPict1.png)
+From a high-level view, Data Pipeline Designer has a simple architecture. The systemhas three main components: 
+-Visual Designer: An application providing the user interface for building data pipelines and defining templates. The Visual Designer communicate with the REST API for data persistent.
+- REST API Web Server: A web API providing a central interface for operations such as managing pipelines and templates data, transforming pipelines into DSL.
+- Database: A simple relational database for storing pipelines and templates.
+  
+ 
