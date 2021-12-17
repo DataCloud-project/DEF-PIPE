@@ -14,5 +14,3 @@ From a high-level view, the systemhas three main components:
 - REST API Web Server: A web API providing a central interface for operations such as managing pipelines and templates data, transforming pipelines into DSL.
 
 - Database: A simple relational database for storing pipelines and templates.
-  
- 
