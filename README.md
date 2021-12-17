@@ -8,9 +8,11 @@ DEF-PIPE provides the following functionality:
 
 - Predefined pipeline and step templates provide a library of existing implementations for injection and reuse into the current pipeline. 
 
-From a high-level view, Data Pipeline Designer has a simple architecture. The systemhas three main components: 
+From a high-level view, the systemhas three main components: 
 - Visual Designer: An application providing the user interface for building data pipelines and defining templates. The Visual Designer communicate with the REST API for data persistent.
+
 - REST API Web Server: A web API providing a central interface for operations such as managing pipelines and templates data, transforming pipelines into DSL.
+
 - Database: A simple relational database for storing pipelines and templates.
   
  
