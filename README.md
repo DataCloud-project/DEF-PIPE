@@ -1,4 +1,9 @@
+<p align="center"><img width=50% src="https://raw.githubusercontent.com/DataCloud-project/toolbox/master/docs/img/datacloud_logo.png"></p>&nbsp;
+
+[![GitHub Issues](https://img.shields.io/github/issues/DataCloud-project/DEF-PIPE.svg)](https://github.com/DataCloud-project/DEF-PIPE/issues)
+
 # DEF-PIPE
+
 DEF-PIPE provides a visual design for implementing Big Data pipelines based on a DSL, including storing and loading the pipeline definitions and displaying them in a user interface where domain experts declare the pipeline structure. Furthermore, it enables data scientists to define the content by configuring each step and injecting code or customising generic predefined step templates. 
 DEF-PIPE provides the following functionality: 
 
@@ -14,6 +19,5 @@ From a high-level view, the system has three main components:
 - REST API Web Server: A web API providing a central interface for operations such as managing pipelines and templates data, transforming pipelines into DSL.
 
 - Database: A simple relational database for storing pipelines and templates.
-
 
 ![This is an image](https://github.com/DataCloud-project/DEF-PIPE/blob/main/docs/high-level-components.png)
